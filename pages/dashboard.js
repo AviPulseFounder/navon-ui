@@ -3,30 +3,17 @@ import Layout from '../components/Layout';
 export default function Dashboard() {
   return (
     <Layout>
-      <div className="p-6 space-y-6">
-        <h1 className="text-3xl font-bold">Dashboard</h1>
-
-        {/* Section: Market Feed */}
-        <section className="space-y-2">
-          <h2 className="text-xl font-semibold">Market Feed</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-muted p-4 rounded-xl shadow">S&P 500: Loading...</div>
-            <div className="bg-muted p-4 rounded-xl shadow">Nasdaq: Loading...</div>
-          </div>
+      <div className="space-y-6">
+        <h1 className="text-3xl font-bold">Welcome to the Dashboard</h1>
+        <section className="bg-white rounded-lg p-4 shadow">
+          <h2 className="text-xl font-semibold mb-2">Overview</h2>
+          <p>Summary stats or charts go here.</p>
         </section>
-
-        {/* Section: Watchlist */}
-        <section className="space-y-2">
-          <h2 className="text-xl font-semibold">Watchlist</h2>
-          <div className="bg-muted p-4 rounded-xl shadow">Watchlist component coming soon...</div>
-        </section>
-
-        {/* Section: Activity */}
-        <section className="space-y-2">
-          <h2 className="text-xl font-semibold">Recent Activity</h2>
-          <div className="bg-muted p-4 rounded-xl shadow">No recent activity.</div>
+        <section className="bg-white rounded-lg p-4 shadow">
+          <h2 className="text-xl font-semibold mb-2">Recent Activity</h2>
+          <p>Latest updates or logs will display here.</p>
         </section>
       </div>
     </Layout>
-  )
+  );
 }
