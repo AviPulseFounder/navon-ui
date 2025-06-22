@@ -1,8 +1,12 @@
+import Layout from '../components/Layout';
+
 export default function Dashboard() {
   return (
-    <div className="p-6">
-      <h1 className="text-3xl font-bold">Welcome to your Dashboard</h1>
-      <p className="mt-2 text-gray-600">Access insights, alerts, and your personal workspace here.</p>
-    </div>
+    <Layout>
+      <div className="text-center mt-10">
+        <h1 className="text-3xl font-bold">Dashboard</h1>
+        <p className="text-gray-400 mt-2">This is your main control center.</p>
+      </div>
+    </Layout>
   );
 }

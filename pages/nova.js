@@ -1,8 +1,12 @@
+import Layout from '../components/Layout';
+
 export default function Nova() {
   return (
-    <div className="p-6">
-      <h1 className="text-3xl font-bold">Nova</h1>
-      <p className="mt-2 text-gray-600">Your assistant is here to help with market data, scheduling, and insights.</p>
-    </div>
+    <Layout>
+      <div className="text-center mt-10">
+        <h1 className="text-3xl font-bold">Nova</h1>
+        <p className="text-gray-400 mt-2">Your personal AI assistant interface.</p>
+      </div>
+    </Layout>
   );
 }

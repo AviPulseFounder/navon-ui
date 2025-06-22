@@ -1,8 +1,12 @@
+import Layout from '../components/Layout';
+
 export default function Axiom() {
   return (
-    <div className="p-6">
-      <h1 className="text-3xl font-bold">Axiom</h1>
-      <p className="mt-2 text-gray-600">Learn and master strategic finance, modeling, and portfolio strategy.</p>
-    </div>
+    <Layout>
+      <div className="text-center mt-10">
+        <h1 className="text-3xl font-bold">Axiom</h1>
+        <p className="text-gray-400 mt-2">Financial insights and strategy hub.</p>
+      </div>
+    </Layout>
   );
 }
