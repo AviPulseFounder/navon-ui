@@ -4,20 +4,22 @@ export default function Axiom() {
   return (
     <Layout>
       <div className="space-y-8">
-        <section className="bg-white dark:bg-gray-900 p-6 rounded shadow">
-          <h2 className="text-xl font-semibold mb-2">Financial Education Hub</h2>
-          <p>Welcome to Axiom — your personalized financial learning and insight center.</p>
+        {/* Daily Lessons Section */}
+        <section className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 className="text-xl font-semibold mb-2">Daily Lessons</h2>
+          <p className="text-gray-500 dark:text-gray-400">Your daily financial learning modules will appear here.</p>
         </section>
 
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="bg-white dark:bg-gray-800 p-6 rounded shadow">
-            <h3 className="text-lg font-medium mb-2">Investment Analysis</h3>
-            <p>Explore breakdowns, trends, and smart portfolio moves.</p>
-          </div>
-          <div className="bg-white dark:bg-gray-800 p-6 rounded shadow">
-            <h3 className="text-lg font-medium mb-2">Financial Literacy</h3>
-            <p>Grow your knowledge with curated education tracks and tools.</p>
-          </div>
+        {/* Deep Dives Section */}
+        <section className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 className="text-xl font-semibold mb-2">Deep Dives</h2>
+          <p className="text-gray-500 dark:text-gray-400">Explore in-depth topics and strategic concepts here.</p>
+        </section>
+
+        {/* Practical Tools Section */}
+        <section className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+          <h2 className="text-xl font-semibold mb-2">Practical Tools</h2>
+          <p className="text-gray-500 dark:text-gray-400">Access calculators, templates, and practical resources here.</p>
         </section>
       </div>
     </Layout>
